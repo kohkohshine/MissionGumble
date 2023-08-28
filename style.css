@@ -16,7 +16,7 @@ footer {
 #firstSection .first-row {
   background: url("./design-assets/bgk-header.png");
   background-size: cover;
-  height: 28.125em;
+  height: 28.125rem;
 }
 #firstSection #nav-bar {
   display: flex;
@@ -77,8 +77,13 @@ footer {
   background-color: transparent;
   padding: 0.5rem 1rem;
   border: 2px solid #22687b;
-  color: white;
+  color: #22687b;
   margin: 1.5rem auto;
+}
+
+#firstSection #content button:hover {
+  color: white;
+  background-color: #22687b;
 }
 
 #firstSection .second-row {
@@ -99,9 +104,34 @@ footer {
 #firstSection .middle-para button {
   background-color: transparent;
   padding: 0.5rem 1rem;
-  border: 2px solid #22687b;
-  color: #22687b;
+  border: 2px solid #53c3c0;
+  color: #53c3c0;
   display: inline;
   margin: 0 auto;
   margin-left: 0;
+}
+#firstSection .middle-para button:hover {
+  color: white;
+  background-color: #53c3c0;
+}
+
+#firstSection .third-row {
+  background: url("./design-assets/bgk-middle.png");
+  background-size: cover;
+  height: 400px;
+}
+
+#firstSection .play-icon {
+  display: flex;
+  height: 25rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+#firstSection .play-icon img {
+  width: 5rem;
+  height: 5rem;
+  margin-bottom: 1rem;
 }
