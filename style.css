@@ -9,7 +9,165 @@ body {
     font-size: 16px;
 }
 
-footer {
-    margin-top: auto;
+
+
+
+/*Harun*/
+
+#mainThirdSection {
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
+#thirdSectionone {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+#thirdSectionone input,
+textarea {
+    padding: 10px;
+    width: 100%;
+    margin: 10px;
+    color: lightgray;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#thirdSectionone h3{
+    color: black;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+
+#thirdcontactForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#thirdSectiontwo {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+#thirdSectiontwo div {
+    padding: 5px;
+    width: 100%;
+    margin: 3px;
+}
+
+#thirdSectiontwo h3 {
+    color: black;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+#thirdSectiontwo div img {
+    font-size: 10em;
+    width: 60%;
+}
+
+#thirdLogoContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.thirdLogoItem {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer {
+    margin-top:auto;
+    color: white;
+    width: 100%;
+    background-image: url('./design-assets/design-assets/bgk-footer.png');
+    background-size: auto;
+    background-position: center bottom;
+    height: 50vh;
+}
+
+
+#thirdFooterMain {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+#thirdFooterFirst {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 10px;
+    margin-left: 110px;
+}
+
+#thirdFooterFirst img {
+    width: 20%;
+}
+
+#thirdFooterSecond {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#thirdFooterThird {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 10px;
+    margin-top: 100px;
+    margin-right: 120px;
+}
+
+#thirdFooterThird h4, div {
+    padding: 10px;
+}
+
+#thirdFooterThird a {
+    font-size: 1em;
+    border: 1px solid white;
+    color: white;
+    border-radius: 50%;
+    justify-content: center;
+    padding: 5px;
+    margin: 1px;
+}
+
+#footerTwoMain {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 0.7em;
+}
+
+#footerTwoMain div ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#footerTwoMain div ul li {
+    list-style: none;
+    padding: 10px; 
+}
