@@ -12,3 +12,20 @@ body {
 footer {
     margin-top: auto;
 }
+
+#secondSection2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+#secondSection-pt2 {
+    max-width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#second-text-icon {
+    margin: 2em;
+}
+
