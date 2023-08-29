@@ -238,3 +238,77 @@ color: gray;
     width: 50%;
     opacity: 0.5;
 }
+
+#secondSection2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 100vw;
+    height: 80vh;
+}
+
+#secondSection-pt2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-evenly;
+    width: 50%;
+
+}
+#second-text-icon {
+    margin: 2em;
+
+}
+
+#secondSection-pt3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background: url(./design-assets/bgk-header.png);
+    width:100%;
+    max-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.white-square {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    text-align: center;
+    } 
+
+.wtf-second {
+    padding-top: 10em;
+    padding-bottom: 10em;
+}
+
+#white-square-sec {
+        width: 10vw;
+        height: 25vh;
+        background-color: #ffff;
+    }
+
+.second-pt3-tetx {
+    border: 0.5px solid #fff;
+    color: #ffff;
+    width: 10vw;
+    font-size: 0.8em;
+    padding: 0.8em;
+}
+.wtf2-second {
+    width: 100%;
+    color: #fff;
+    padding-left: 47%;
+    padding-bottom: 3em;
+}
+.second-button {
+    background: transparent;
+    border: 0.5px solid #53c3c0;
+    color: #53c3c0;
+    padding: 1em;
+}
