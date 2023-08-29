@@ -9,8 +9,109 @@ body {
   font-size: 16px;
 }
 
+
+/*Harun*/
+
+#mainThirdSection {
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#thirdSectionone {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+#thirdSectionone input,
+textarea {
+    padding: 10px;
+    width: 140%;
+    margin: 10px;
+    color: gray;
+    opacity: 0.5;
+    box-shadow: none;
+    border: 1px solid lightgray;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#thirdSectionone  button {
+    padding: 10px;
+    margin: 10px;
+    width: 40%;
+    color: gray;
+    background: transparent;
+    opacity: 0.6;
+    box-shadow: none;
+    border: 1px solid lightgray;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#thirdSectionone h3{
+    color: black;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+
+#thirdcontactForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#thirdSectiontwo {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+#thirdSectiontwo div {
+    padding: 5px;
+    width: 100%;
+    margin: 3px;
+}
+
+#thirdSectiontwo h3 {
+    color: black;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+#thirdSectiontwo div img {
+    width: 80%;
+}
+
+#thirdLogoContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.thirdLogoItem {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
 footer {
   margin-top: auto;
+    color: white;
+    width: 100%;
+    background-image: url('./design-assets/design-assets/bgk-footer.png');
+    background-size: auto;
+    background-position: center bottom;
+    height: 50vh;
+    font-size: 0.9rem;
+    font-family:Helvetica, sans-serif;
 }
 
 #firstSection .first-row {
@@ -134,4 +235,203 @@ footer {
   width: 5rem;
   height: 5rem;
   margin-bottom: 1rem;
+}
+
+
+#thirdFooterMain {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding-top: 70px;
+}
+
+#thirdFooterFirst {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+#thirdFooterFirst p{
+    padding: 10px;
+}
+
+#thirdFooterFirst h2, #thirdFooterFirst img {
+    padding-bottom: 10px ;
+
+}
+
+#thirdFooterFirst img {
+    width: 40%;
+}
+
+#companyLogo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#thirdFooterSecond {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+#thirdFooterSecond h2, #thirdFooterSecond p {
+    padding: 10px;
+}
+
+.thirdLogoTextFooter {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+#thirdFooterThird {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap:40px;
+    align-items: flex-start;
+}
+
+#thirdFooterThird a{
+    text-decoration: none;
+}
+
+#thirdFooterThird a:hover{
+color: gray;
+}
+
+#thirdFooterThird > div i {
+    border: 1px solid white;
+    color: white;
+    border-radius: 50%;
+    justify-content: center;
+    padding: 8px;
+    margin: 1px;
+}
+
+#thirdFooterThird input {
+    width: 200%;
+    padding: 10px;
+    font-size: 0.7rem;
+    background: transparent;
+    border: 0.5px solid white;
+}
+
+#footerTwoMain {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 200px;
+}
+
+#footerTwoMain ul, #footerTwoMain p {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px ;
+}
+
+#footerTwoMain > div > ul > li {
+    list-style: none;
+      padding: 10px; 
+  }
+
+#thirdFooterThird div {
+    display: flex;
+    flex-direction: row; 
+
+}
+
+#thirdFooterThird img {
+    width: 50%;
+}
+
+#thirdFooterThird button {
+    width: 50%;
+    opacity: 0.5;
+}
+
+#secondSection2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 100vw;
+    height: 80vh;
+}
+
+#secondSection-pt2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-evenly;
+    width: 50%;
+
+}
+#second-text-icon {
+    margin: 2em;
+
+}
+
+#secondSection-pt3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background: url(./design-assets/bgk-header.png);
+    width:100%;
+    max-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.white-square {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    text-align: center;
+    } 
+
+.wtf-second {
+    padding-top: 10em;
+    padding-bottom: 10em;
+}
+
+#white-square-sec {
+        width: 10vw;
+        height: 25vh;
+        background-color: #ffff;
+    }
+
+.second-pt3-tetx {
+    border: 0.5px solid #fff;
+    color: #ffff;
+    width: 10vw;
+    font-size: 0.8em;
+    padding: 0.8em;
+}
+.wtf2-second {
+    width: 100%;
+    color: #fff;
+    padding-left: 47%;
+    padding-bottom: 3em;
+}
+.second-button {
+    background: transparent;
+    border: 0.5px solid #53c3c0;
+    color: #53c3c0;
+    padding: 1em;
 }
