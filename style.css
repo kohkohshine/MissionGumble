@@ -32,9 +32,24 @@ body {
 #thirdSectionone input,
 textarea {
     padding: 10px;
-    width: 100%;
+    width: 140%;
     margin: 10px;
-    color: lightgray;
+    color: gray;
+    opacity: 0.5;
+    box-shadow: none;
+    border: 1px solid lightgray;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#thirdSectionone  button {
+    padding: 10px;
+    margin: 10px;
+    width: 40%;
+    color: gray;
+    background: transparent;
+    opacity: 0.6;
+    box-shadow: none;
+    border: 1px solid lightgray;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -72,8 +87,7 @@ textarea {
 }
 
 #thirdSectiontwo div img {
-    font-size: 10em;
-    width: 60%;
+    width: 80%;
 }
 
 #thirdLogoContainer {
@@ -98,76 +112,131 @@ footer {
     background-size: auto;
     background-position: center bottom;
     height: 50vh;
+    font-size: 0.9rem;
+    font-family:Helvetica, sans-serif;
 }
 
 
 #thirdFooterMain {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    align-items: flex-end;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding-top: 70px;
 }
 
 #thirdFooterFirst {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: center;
-    margin: 10px;
-    margin-left: 110px;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+#thirdFooterFirst p{
+    padding: 10px;
+}
+
+#thirdFooterFirst h2, #thirdFooterFirst img {
+    padding-bottom: 10px ;
+
 }
 
 #thirdFooterFirst img {
-    width: 20%;
+    width: 40%;
+}
+
+#companyLogo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 #thirdFooterSecond {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: center;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+#thirdFooterSecond h2, #thirdFooterSecond p {
+    padding: 10px;
+}
+
+.thirdLogoTextFooter {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
 }
 
 #thirdFooterThird {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: space-evenly;
+    gap:40px;
     align-items: flex-start;
-    padding-left: 10px;
-    margin-top: 100px;
-    margin-right: 120px;
 }
 
-#thirdFooterThird h4, div {
-    padding: 10px;
+#thirdFooterThird a{
+    text-decoration: none;
 }
 
-#thirdFooterThird a {
-    font-size: 1em;
+#thirdFooterThird a:hover{
+color: gray;
+}
+
+#thirdFooterThird > div i {
     border: 1px solid white;
     color: white;
     border-radius: 50%;
     justify-content: center;
-    padding: 5px;
+    padding: 8px;
     margin: 1px;
+}
+
+#thirdFooterThird input {
+    width: 200%;
+    padding: 10px;
+    font-size: 0.7rem;
+    background: transparent;
+    border: 0.5px solid white;
 }
 
 #footerTwoMain {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
-    font-size: 0.7em;
+    gap: 200px;
 }
 
-#footerTwoMain div ul {
+#footerTwoMain ul, #footerTwoMain p {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+    padding-top: 50px ;
 }
 
-#footerTwoMain div ul li {
+#footerTwoMain > div > ul > li {
     list-style: none;
-    padding: 10px; 
+      padding: 10px; 
+  }
+
+#thirdFooterThird div {
+    display: flex;
+    flex-direction: row; 
+
+}
+
+#thirdFooterThird img {
+    width: 50%;
+}
+
+#thirdFooterThird button {
+    width: 50%;
+    opacity: 0.5;
 }
