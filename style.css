@@ -32,9 +32,9 @@ textarea {
     padding: 10px;
     width: 140%;
     margin: 10px;
-    color: gray;
-    opacity: 0.5;
+    color: white;
     box-shadow: none;
+    opacity: 0.5;
     border: 1px solid lightgray;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -110,8 +110,8 @@ footer {
     background-size: auto;
     background-position: center bottom;
     height: 50vh;
-    font-size: 0.9rem;
-    font-family:Helvetica, sans-serif;
+    font-size: 0.8rem;
+    font-family: 'Roboto', sans-serif;
 }
 
 #firstSection .first-row {
@@ -146,7 +146,6 @@ footer {
 
 #firstSection .nav-right ul li a {
   text-decoration: none;
-  padding: 1em;
   color: white;
 }
 
@@ -256,12 +255,14 @@ footer {
 }
 
 #thirdFooterFirst p{
-    padding: 10px;
+    line-height: 1.8;
 }
 
 #thirdFooterFirst h2, #thirdFooterFirst img {
     padding-bottom: 10px ;
-
+    opacity: 0.5;
+    font-size: 2rem;
+    font-weight: lighter;
 }
 
 #thirdFooterFirst img {
@@ -273,6 +274,7 @@ footer {
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
+    gap: 10px;
 }
 
 #thirdFooterSecond {
@@ -283,21 +285,31 @@ footer {
     gap: 20px;
 }
 
-#thirdFooterSecond h2, #thirdFooterSecond p {
-    padding: 10px;
+#thirdFooterSecond h4 {
+    font-weight:900;
+    padding-bottom: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+
+
+#thirdFooterSecond p {
+   line-height: 1.8;
 }
 
 .thirdLogoTextFooter {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     align-items: flex-start;
+    line-height: 10px;
+    gap: 10px;
 }
 
 #thirdFooterThird {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    gap:40px;
+    gap:35px;
     align-items: flex-start;
 }
 
@@ -306,7 +318,8 @@ footer {
 }
 
 #thirdFooterThird a:hover{
-color: gray;
+background-color: gray;
+border-radius: 50%;
 }
 
 #thirdFooterThird > div i {
@@ -314,16 +327,22 @@ color: gray;
     color: white;
     border-radius: 50%;
     justify-content: center;
-    padding: 8px;
-    margin: 1px;
+   padding: 6px;
 }
 
 #thirdFooterThird input {
-    width: 200%;
-    padding: 10px;
-    font-size: 0.7rem;
+    width: 15vw;
+    height: 5vh;
+    padding: 8px;
     background: transparent;
     border: 0.5px solid white;
+    color: black;
+}
+
+#thirdFooterThird h4 {
+    font-weight:900;
+    padding-bottom: 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
 }
 
 #footerTwoMain {
@@ -331,7 +350,7 @@ color: gray;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    gap: 200px;
+    gap: 240px;
 }
 
 #footerTwoMain ul, #footerTwoMain p {
@@ -350,16 +369,21 @@ color: gray;
 #thirdFooterThird div {
     display: flex;
     flex-direction: row; 
+    gap: 10px;
 
 }
 
 #thirdFooterThird img {
-    width: 50%;
+    width: 80%;
 }
 
 #thirdFooterThird button {
-    width: 50%;
-    opacity: 0.5;
+    width:10vw
+    height:10vh;
+    padding-left:10px;
+    padding-right:10px;
+    border:1px solid white;
+   opacity:0.5;
 }
 
 #secondSection2{
