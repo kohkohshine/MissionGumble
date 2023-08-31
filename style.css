@@ -569,6 +569,34 @@ border-radius: 50%;
 
 
 @media only screen and (min-width:768px) and (max-width:1024px) {
+  
+  #sec-try-flex {
+    flex-direction: column;
+  }
+  #second-text-icon img{
+    height: 40%;
+  }
+  #second-text-icon h3, p{
+    font-size: 0.8em;
+  }
+  .white-square {
+    flex-direction: column;
+    gap: 0px;
+    justify-content: center;
+    align-items: center;
+  }
+  .wtf-second {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+#white-square-sec {
+  min-width: 5vw;
+  height: 10vh;
+
+}
+
+
 
   footer {
     min-height: 100vh;
@@ -652,6 +680,32 @@ textarea {
   body {
   font-size: 12px;
   } 
+
+  #sec-try-flex {
+    flex-direction: column;
+  }
+  #second-text-icon img{
+    height: 40%;
+  }
+  #second-text-icon h3, p{
+    font-size: 0.8em;
+  }
+  .white-square {
+    flex-direction: column;
+    gap: 0px;
+    justify-content: center;
+    align-items: center;
+  }
+  .wtf-second {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+#white-square-sec {
+  min-width: 5vw;
+  height: 10vh;
+
+}
 
   footer {
     min-height: 140vh;
