@@ -11,6 +11,54 @@ body {
   overflow-x: hidden;
 }
 
+.popup {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+#popup-toggle:checked + .popup {
+  display: flex;
+  text-align: center;
+}
+
+.popup-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  animation: popupFadeIn 0.5s ease forwards;
+  display: flex;
+  flex-direction: column;
+}
+
+@keyframes popupFadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.close-button {
+  background-color: #22687b;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
 
 /*Harun*/
 
@@ -108,11 +156,13 @@ textarea {
 footer {
   margin-top: auto;
     color: white;
-    width: 100%;
+    min-width: 100vw;
     background-image: url('./design-assets/design-assets/bgk-footer.png');
     background-size: auto;
     background-position: center bottom;
-    height: 50vh;
+    background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 40vh;
     font-size: 0.8rem;
     font-family: 'Roboto', sans-serif;
 }
@@ -331,16 +381,17 @@ border-radius: 50%;
     color: white;
     border-radius: 50%;
     justify-content: center;
-   padding: 6px;
+   padding: 8px 8px 7px 8px;
 }
 
 #thirdFooterThird input {
-    width: 15vw;
-    height: 5vh;
+    width: 200px;
+    height: 45px;
     padding: 8px;
     background: transparent;
     border: 0.5px solid white;
     color: black;
+    opacity: 0.7;
 }
 
 #thirdFooterThird input::placeholder {
@@ -359,7 +410,7 @@ border-radius: 50%;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    gap: 240px;
+    gap: 120px;
 }
 
 #footerTwoMain ul, #footerTwoMain p {
@@ -387,8 +438,8 @@ border-radius: 50%;
 }
 
 #thirdFooterThird button {
-   width: 3vw;
-    height:5vh;
+   width: 50px;
+    height: 45px;
     padding-left:10px;
     padding-right:10px;
     border:1px solid white;
@@ -511,11 +562,20 @@ border-radius: 50%;
 
 }
 
+#footerTwoMain ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+#footerTwoMain ul li a:hover {
+  color: #22687b;
+}
+
 
 @media only screen and (min-width:768px) and (max-width:1024px) {
 
   footer {
-    min-height: 70vh;
+    min-height: 100vh;
   }
 
   #mainThirdSection {
@@ -548,6 +608,7 @@ textarea {
 
 
 #thirdFooterFirst {
+  padding-top: 1em;
   text-align: center;
   justify-content: center;
   align-items: center;
@@ -568,21 +629,24 @@ textarea {
 }
 
 #thirdFooterThird input {
-  width: 30vw;
+  width: 250px;
+  max-height: 100px;
 }
 
 #thirdFooterThird button {
-  width: 10vw;
+  min-width: 60px;
 }
 
 #thirdFooterThird img {
-  width: 50%;
+  width: 3vw;
 }
 
 #footerTwoMain {
   flex-direction: column;
   gap: 0px;
 }
+
+
 
 }
 
@@ -594,7 +658,7 @@ textarea {
   } 
 
   footer {
-    min-height: 100vh;
+    min-height: 140vh;
     font-size: 1.4em;
   }
 
@@ -610,13 +674,14 @@ textarea {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 10px;
+    padding-top: 1em;
   }
 
   #thirdFooterFirst {
     text-align: center;
     justify-content: center;
     align-items: center;
+    padding-top: 1em;
   }
 
   #thirdFooterSecond {
@@ -627,13 +692,19 @@ textarea {
   #thirdFooterThird a {
     font-size: 30px;
   }
+
+
+  #thirdFooterThird {
+    justify-content: center;
+    align-items: center;
+  }
   
   #thirdFooterThird input {
-    width: 65vw;
+    min-width: 250px;
   }
 
   #thirdFooterThird button {
-    width: 10vw;
+    min-width: 50px ;
   }
   #thirdFooterThird img {
     width: 100%;
